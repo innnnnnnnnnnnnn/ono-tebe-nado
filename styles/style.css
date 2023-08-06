@@ -116,7 +116,6 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: 15px;
   margin-right: 0;
 }
 
@@ -124,10 +123,10 @@
   display: block;
   text-align: center;
   line-height: 100%;
-  letter-spacing: 30px;
   padding: 0 110px 20px;
   position: relative;
   z-index: 2;
+  letter-spacing: 30px ;
 }
 
 .aligned-text-right {
@@ -143,6 +142,11 @@
 }
 
 .cover__description {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color:#fff;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -152,7 +156,6 @@
 }
 
 .cover__description-text {
-  text-align: center;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -164,10 +167,8 @@
 
 .bet-button {
   color: #fff;
-  text-align: center;
   font-family: Raleway;
   font-size: 22px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
