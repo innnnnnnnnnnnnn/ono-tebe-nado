@@ -132,12 +132,8 @@
 
 .aligned-text-right {
   display: block;
-  color: #fff;
   text-align: right;
-  font-family: Raleway;
-  font-size: 100px;
   font-style: normal;
-  font-weight: 700;
   line-height: 100%;
   letter-spacing: 60px;
   padding: 0 0 135px;
@@ -156,9 +152,7 @@
 }
 
 .cover__description-text {
-  color: #fff;
   text-align: center;
-  font-family: Raleway;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
