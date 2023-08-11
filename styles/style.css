@@ -72,7 +72,7 @@
   line-height: 24.3px;
   text-underline-offset: 4.5px;
   justify-self: end;
-  width: 240px;
+  max-width: 240px;
 }
 
 .cover {
