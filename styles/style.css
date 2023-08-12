@@ -1,9 +1,11 @@
 .alignment-container {
+  /*блок для центрирование всего макета */
   max-width: 1440px;
   margin: auto;
 }
 
 .header {
+  /*шапка*/
   padding: 92px 50px;
   color: black;
   display: grid;
@@ -12,30 +14,34 @@
 }
 
 .header__menu {
+  /*Меню навигации*/
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-right: 209px;
   justify-self: start;
 }
 
 .header__link_active {
+  /*активная ссылка*/
   text-decoration: none;
 }
 
 .header__links-list {
+  /*ul*/
   list-style-type: circle;
   display: flex;
   gap: 32px;
 }
 .header__links-list-item {
+  /*li*/
   flex-direction: column;
 }
 
 .header__link {
+  /*ссылка*/
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -46,10 +52,12 @@
 }
 
 .header__links-list-item_no-bullit {
+  /*класс без стилизации*/
   list-style-type: none;
 }
 
 .header__logo {
+  /*ссылка логотипа*/
   display: block;
   width: 148px;
   height: 105px;
@@ -57,6 +65,7 @@
 }
 
 .header__logo_image {
+  /*картинка*/
   display: block;
   width: 148px;
   height: 105px;
@@ -64,6 +73,7 @@
 }
 
 .address {
+  /*адресс*/
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -76,6 +86,7 @@
 }
 
 .cover {
+  /*банер*/
   width: 100%;
   background-image: url(../images/cover.jpg);
   background-position: center;
@@ -96,6 +107,7 @@
 }
 
 .overlay {
+  /*полупрозрачное покрытие*/
   background-color: rgb(0 0 0 / 0.6);
   position: absolute;
   left: 0;
@@ -106,6 +118,7 @@
 }
 
 .aligned-text {
+  /*общий класс для текста*/
   display: block;
   line-height: 115%;
   padding: 165px 50px 20px;
@@ -114,20 +127,24 @@
 }
 
 .letter-spacing-extended {
+  /*но*/
   letter-spacing: 60px;
 }
 
 .no-letter-spacing {
+  /*о*/
   letter-spacing: 0;
 }
 
 .aligned-text-center {
+  /*отцентрированный текст*/
   text-align: center;
   line-height: 100%;
   padding: 0 0 20px;
 }
 
 .aligned-text-right {
+  /*текст с правого края*/
   text-align: right;
   line-height: 100%;
   padding: 0 0 135px;
@@ -135,6 +152,7 @@
 }
 
 .cover__description {
+  /*описание сайта*/
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -149,6 +167,7 @@
 }
 
 .cover__description-text {
+  /*абзац*/
   font-size: 22px;
   font-style: normal;
   line-height: 28px;
@@ -158,6 +177,7 @@
 }
 
 .bet-button {
+  /*кнопка*/
   color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 22px;
@@ -173,10 +193,12 @@
 }
 
 .lots {
+  /*секция с карточками*/
   margin: 180px 50px 181px;
 }
 
 .lots__heading {
+  /*h2*/
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 40px;
@@ -206,11 +228,13 @@
 }
 
 .card-link {
+  /*ссылка*/
   display: block;
   height: 100%;
 }
 
 .card {
+  /*общий класс для карточек*/
   position: relative;
   z-index: 2;
   padding: 50px 40px;
@@ -237,6 +261,7 @@
 }
 
 .card__title {
+  /*h3*/
   color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 22px;
@@ -251,6 +276,7 @@
 }
 
 .card__text {
+  /*p*/
   color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 20px;
@@ -275,6 +301,7 @@
 }
 
 .about {
+  /*секция об аукционе*/
   max-width: 1340px;
   margin: 181px 50px 180px;
   display: grid;
@@ -283,6 +310,7 @@
 }
 
 .about__logo {
+  /*блок для логотипа*/
   width: 240px;
   height: 240px;
   flex-shrink: 0;
@@ -291,12 +319,14 @@
   margin: 0 95px 0;
 }
 .about__logo-image {
+  /*картинка логотипа*/
   width: 148px;
   height: 114px;
   margin: 63px 46px;
 }
 
 .about__title {
+  /*об аукционе*/
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 40px;
@@ -308,6 +338,7 @@
 }
 
 .about__text {
+  /*p*/
   grid-column: 2/2;
   color: #000;
   font-family: Raleway, sans-serif;
@@ -318,6 +349,7 @@
 }
 
 .information {
+  /*блок для flex*/
   grid-column: 2/2;
   display: flex;
   flex-wrap: wrap;
@@ -325,6 +357,7 @@
 }
 
 .footer {
+  /*подвал*/
   width: 100%;
   height: 100%;
   color: black;
@@ -343,6 +376,7 @@
 }
 
 .footer__menu-link {
+  /*ссылка*/
   text-decoration: underline;
   text-underline-offset: 4px;
 }
